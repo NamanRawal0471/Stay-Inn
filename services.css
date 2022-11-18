@@ -1,0 +1,55 @@
+.Flex-Container{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(red, yellow, green)
+}   
+.Flex-Container > div {
+     margin: auto;
+     padding: 50px;
+}
+.navigation-links > a{
+    font-size: 20px;
+    margin: 20px;
+    font-size: 50px;
+    text-decoration: none;
+}
+.login > a{
+    font-size: 30px;
+    text-decoration: none;
+    border: 4px solid green; 
+    padding: 20px 40px;
+    background-color:floralwhite;
+
+}
+.horizontal-line{
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+    width: 80%
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+    height: 800px;
+}
+
+.fotter{
+    display: flex;
+    flex-direction: row;
+}
+.fotter > div{
+    margin: auto;
+}
+.horizontal-lin{
+    background-color:red;
+    height: 4px;
+    width: 70%;
+    border-radius: 20%;
+}
+.Banquet,.cateering,.sweets,.food,.icecream,.snacks{
+display: flex;
+flex-direction: column;
+}
+.panel{
+    display: none;
+}

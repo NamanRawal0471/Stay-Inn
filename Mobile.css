@@ -1,0 +1,32 @@
+@media (max-width:1500px) {
+    .Flex-Container {display:flex;
+    flex-direction: column;
+    text-align: center;}
+    .food,.delivery{display:flex;
+    flex-direction: column;
+    }
+    .fod{
+        width: 700px;
+        border: 10px solid white;
+    }
+    .bar{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .banner{
+        display:flex;
+        flex-direction: column;
+    }
+    .abot{
+        display:flex;
+        flex-direction:column ;
+        background-color: azure;
+    }
+    .head{
+        background-color:burlywood;
+        height: 10px;
+        border-radius: 10px;
+        width: 80%;
+    }
+}
+    
